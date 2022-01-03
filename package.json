@@ -1,0 +1,22 @@
+{
+  "name": "crude-nodejs",
+  "version": "1.0.0",
+  "description": "Pruebas de una aplicacion estilo CRUD",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "debug": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Er Samu",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "ejs-lint": "^1.2.1",
+    "express": "^4.17.2",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  }
+}
